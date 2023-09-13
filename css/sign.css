@@ -1,0 +1,103 @@
+/* CSS code for a sign-up page of a fashion store website named fashizzle */
+
+/* Define the colors and fonts used in the page */
+:root {
+    --primary-color: #ff69b4;
+    /* Hot pink */
+    --secondary-color: #000000;
+    /* Black */
+    --tertiary-color: #ffffff;
+    /* White */
+    --font-family: "Poppins", sans-serif;
+    /* A modern and stylish font */
+}
+
+/* Style the body element */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background-color: var(--tertiary-color);
+}
+
+/* Style the logo element */
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Style the container element that holds the sign-up form */
+.container {
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Style the title element that shows the name of the website */
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Style the subtitle element that shows the tagline of the website */
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+/* Style the form element that contains the input fields and buttons */
+.form {
+    margin-top: 20px;
+}
+
+.form input[type='checkbox']{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/* Style the input elements that take the name, email, password and confirm password */
+.input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Style the label elements that show the input names */
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style the button elements that submit or reset the form */
+.button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+/* Style the submit button with a pink background and white text */
+.submit-button {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+    float: left;
+    /* Align to the left side of the container */
+}
+
+/* Style the reset button with a white background and black text */
+.reset-button {
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    float: right;
+    /* Align to the right side of the container */
+}

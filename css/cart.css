@@ -1,0 +1,74 @@
+/* Center the table on the web page */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Set your background color here */
+}
+
+h1{
+    color: #000;
+    margin-left: 33px;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    /* Add some space below the table */
+    background-color: #fff;
+    /* Set your table background color here */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow to the table */
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+    /* Add borders to table, th, and td elements */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Add padding to th and td elements for spacing */
+    text-align: center;
+    /* Center-align text in th and td elements */
+}
+
+th {
+    background-color: #e85a48;
+    /* Set header background color */
+    color: #fff;
+    /* Set header text color */
+}
+
+/* Style the Back to Products button */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+    /* Add space above the button */
+}
+
+.button-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e85a48;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 60px;
+}
+
+.button-container a:hover {
+    background-color: #e44833;
+    /* Change button color on hover */
+}
